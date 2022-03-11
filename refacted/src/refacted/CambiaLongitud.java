@@ -5,7 +5,7 @@
  */
 package refacted;
 
-public class CambiaLongitud {
+public class CambiaLongitud extends NewClass {
 
     /**
      * @return the valor
@@ -91,14 +91,6 @@ vector[posicion] = this.getValor();
         Visualizar( longitud, vector);
     }
 
-    public void Visualizar( final int longitud, int[] vector) {
-        //Mostramos los elementos del array
-        System.out.print("v={");
-        for (int i = 0; i < longitud; i++) {
-            System.out.print(vector[i] + ",");
-        }
-        System.out.println("}");
-    }
     
     
     

@@ -20,7 +20,7 @@ vector[2]=6;
 vector[3]=8;
 CambiaLongitud posicion=new CambiaLongitud();
 posicion.setValor(10);
-posicion.modificar(vector, 1, this);
+posicion.modificar(vector, 1);
 posicion.borrar(vector);
 posicion.insertar(vector);
 }
