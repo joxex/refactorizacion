@@ -33,26 +33,6 @@ public class NoCambiaLongitud {
         }
         System.out.println("}");
     }
-
-    public void modificar(int[] vector, int posicion, CambiaLongitud cambiaLongitud) {
-        int i;
-        int LongituActual = 0;
-        //Mostramos los elementos del array
-        System.out.print("vector={");
-        final int longitud = vector.length;
-        for (i = 0; i < longitud; i++) {
-            System.out.print(vector[i] + ",");
-        }
-        System.out.println("}");
-        //Modificamos el array
-        if (posicion < longitud) {
-            //mostramos su contenido
-            System.out.println("Elemento a modificar=" + vector[posicion]);
-            vector[posicion] = cambiaLongitud.getValor();
-        }
-        //Mostramos los elementos del array
-        cambiaLongitud.Visualizar(longitud, vector);
-    }
     
     
     
