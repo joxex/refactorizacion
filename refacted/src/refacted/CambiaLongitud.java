@@ -22,26 +22,6 @@ public class CambiaLongitud {
     }
      private int valor;
 //metodo que modifica el contenido de la posicion posicion de un array con el valor pasado
-
-    public void modificar(int[] vector, int posicion) {
-        int i;
-        int LongituActual = 0;
-    //Mostramos los elementos del array
-        System.out.print("vector={");
-         final int longitud = vector.length;
-        for (i = 0; i < longitud; i++) {
-            System.out.print(vector[i] + ",");
-        }
-        System.out.println("}");
-    //Modificamos el array
-        if (posicion < longitud) {
-//mostramos su contenido
-System.out.println("Elemento a modificar=" + vector[posicion]);
-vector[posicion] = this.getValor();
-        }
-    //Mostramos los elementos del array
-        Visualizar( longitud, vector);
-    }
     
     public void borrar(int[] vector) {
         int posicion = 1, i;
