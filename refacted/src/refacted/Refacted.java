@@ -18,7 +18,7 @@ vector[0]=2;
 vector[1]=4;
 vector[2]=6;
 vector[3]=8;
-Prueba posicion=new Prueba();
+CambiaLongitud posicion=new CambiaLongitud();
 posicion.setValor(10);
 posicion.modificar(vector, 1);
 posicion.borrar(vector);
